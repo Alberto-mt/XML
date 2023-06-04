@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CD Titulo="Bon Jovi Grandes Exitos"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Cancion_2.xsd">
+	<Cancion Duracion="4:13" Anio="2000">
+		<Titulo>Livin' on a Prayer</Titulo>
+		<Productores>
+			<Productor>
+				<Nombre>Luke</Nombre>
+				<Apellido>Ebbin</Apellido>
+			</Productor>
+			<Productor>
+				<Nombre>Richie</Nombre>
+				<Apellido>Sambora</Apellido>
+			</Productor>
+			<Productor>
+				<Nombre>Max</Nombre>
+				<Apellido>Martin</Apellido>
+			</Productor>
+		</Productores>
+		<Sello>Island</Sello>
+		<Compositores>
+			<Compositor>
+				<Nombre>Jon</Nombre>
+				<Apellido>Bon Jovi</Apellido>
+			</Compositor>
+		</Compositores>
+		<Artista>Jon Bon Jovi</Artista>
+	</Cancion>
+	<Cancion Duracion="3:45" Anio="1994">
+		<Titulo>You Give Love a Bad Name</Titulo>
+		<Productores>
+			<Productor>
+				<Nombre>Luke</Nombre>
+				<Apellido>Ebbin</Apellido>
+			</Productor>
+			<Productor>
+				<Nombre>Richie</Nombre>
+				<Apellido>Sambora</Apellido>
+			</Productor>
+			<Productor>
+				<Nombre>Max</Nombre>
+				<Apellido>Martin</Apellido>
+			</Productor>
+		</Productores>
+		<Sello>Island</Sello>
+		<Compositores>
+			<Compositor>
+				<Nombre>Jon</Nombre>
+				<Apellido>Bon Jovi</Apellido>
+			</Compositor>
+		</Compositores>
+		<Artista>Jon Bon Jovi</Artista>
+	</Cancion>
+	<Cancion Duracion="3:44" Anio="1989">
+		<Titulo>It's my life</Titulo>
+		<Productores>
+			<Productor>
+				<Nombre>Luke</Nombre>
+				<Apellido>Ebbin</Apellido>
+			</Productor>
+			<Productor>
+				<Nombre>Richie</Nombre>
+				<Apellido>Sambora</Apellido>
+			</Productor>
+			<Productor>
+				<Nombre>Max</Nombre>
+				<Apellido>Martin</Apellido>
+			</Productor>
+		</Productores>
+		<Sello>Island</Sello>
+		<Compositores>
+			<Compositor>
+				<Nombre>Jon</Nombre>
+				<Apellido>Bon Jovi</Apellido>
+			</Compositor>
+		</Compositores>
+		<Artista>Jon Bon Jovi</Artista>
+	</Cancion>
+	<Cancion Duracion="3:50" Anio="2000">
+		<Titulo>Who Says You Can't Go Home</Titulo>
+		<Productores>
+			<Productor>
+				<Nombre>Luke</Nombre>
+				<Apellido>Ebbin</Apellido>
+			</Productor>
+			<Productor>
+				<Nombre>Richie</Nombre>
+				<Apellido>Sambora</Apellido>
+			</Productor>
+			<Productor>
+				<Nombre>Max</Nombre>
+				<Apellido>Martin</Apellido>
+			</Productor>
+		</Productores>
+		<Sello>Island</Sello>
+		<Compositores>
+			<Compositor>
+				<Nombre>Jon</Nombre>
+				<Apellido>Bon Jovi</Apellido>
+			</Compositor>
+		</Compositores>
+		<Artista>Jon Bon Jovi</Artista>
+		<Artista>Jennifer Nettles</Artista>
+	</Cancion>
+	<Cancion Duracion="5:56" Anio="1989">
+		<Titulo>Always</Titulo>
+		<Productores>
+			<Productor>
+				<Nombre>Jon</Nombre>
+				<Apellido>Bon Jovi</Apellido>
+			</Productor>
+		</Productores>
+		<Sello>Island</Sello>
+		<Compositores>
+			<Compositor>
+				<Nombre>Jon</Nombre>
+				<Apellido>Bon Jovi</Apellido>
+			</Compositor>
+		</Compositores>
+		<Artista>Jon Bon Jovi</Artista>
+	</Cancion>
+	<Fecha Dia="02" Mes="05" Anio="2000"/>
+</CD>
