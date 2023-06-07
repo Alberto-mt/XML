@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Librerias
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Libreria.xsd">
+	<Libreria>
+		<Codigo>1000</Codigo>
+		<Direccion>Calle Mayor 10</Direccion>
+		<Telefono>611111111</Telefono>
+		<Propietario>
+			<Nombre>Angel</Nombre>
+		</Propietario>
+		<Libros>
+			<Libro>
+				<Titulo>Lenguaje de Marcas</Titulo>
+				<Autor>Jose Luis Martín</Autor>
+				<Formato>Rústico</Formato>
+				<Publicacion>2019</Publicacion>
+				<Precio>29.95</Precio>
+				<Cantidad>0</Cantidad>
+			</Libro>
+			<Libro>
+				<Titulo>HTML 5</Titulo>
+				<Autor>Jose Luis Martín</Autor>
+				<Publicacion>2019</Publicacion>
+				<Precio>29.95</Precio>
+				<Cantidad>1</Cantidad>
+			</Libro>
+			<Libro>
+				<Titulo>CSS 3</Titulo>
+				<Autor>Jose Luis Martín</Autor>
+				<Formato>Tapa dura</Formato>
+				<Publicacion>2019</Publicacion>
+				<Precio>29.95</Precio>
+				<Cantidad>2</Cantidad>
+			</Libro>
+		</Libros>
+	</Libreria>
+	<Libreria>
+		<Codigo>1001</Codigo>
+		<Direccion>Calle Libertad 2</Direccion>
+		<Telefono>622222222</Telefono>
+		<Propietario>
+			<Nombre>María</Nombre>
+			<Telefonos>
+				<Telefono>633333333</Telefono>
+				<Telefono>633333334</Telefono>
+				<Telefono>633333335</Telefono>
+			</Telefonos>
+		</Propietario>
+		<Libros>
+			<Libro>
+				<Titulo>Programación</Titulo>
+				<Autor>Alfonso Aguirre</Autor>
+				<Formato>Tapa blanda</Formato>
+				<Publicacion>2019</Publicacion>
+				<Precio>19.95</Precio>
+				<Cantidad>5</Cantidad>
+			</Libro>
+			<Libro>
+				<Titulo>Java</Titulo>
+				<Autor>Alfonso Aguirre</Autor>
+				<Formato>Rústico</Formato>
+				<Publicacion>2019</Publicacion>
+				<Precio>19.95</Precio>
+				<Cantidad>10</Cantidad>
+			</Libro>
+		</Libros>
+	</Libreria>
+	<Libreria>
+		<Codigo>9999</Codigo>
+		<Direccion>Plaza España 4</Direccion>
+		<Telefono>655555555</Telefono>
+		<Propietario>
+			<Nombre>Almudena</Nombre>
+			<Telefonos>
+				<Telefono>666666666</Telefono>
+			</Telefonos>
+		</Propietario>
+		<Libros>
+			<Libro>
+				<Titulo>BBDD</Titulo>
+				<Autor>Patricia Gómez</Autor>
+				<Formato>Tapa dura</Formato>
+				<Publicacion>2019</Publicacion>
+				<Precio>24.95</Precio>
+				<Cantidad>3</Cantidad>
+			</Libro>
+		</Libros>
+	</Libreria>
+</Librerias>

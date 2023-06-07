@@ -1,0 +1,108 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Librerias">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Libreria" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Codigo" default="2020">
+								<xs:simpleType>
+									<xs:restriction base="xs:integer">
+										<xs:minInclusive value="1000"/>
+										<xs:maxInclusive value="9999"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="Direccion" default="Direccion desconocida">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:maxLength value="50"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element ref="Telefono"/>
+							<xs:element name="Propietario">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Nombre">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="20"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="Telefonos" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element ref="Telefono" maxOccurs="unbounded"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Libros">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Libro" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Titulo" default="Titulo desconocido">
+														<xs:simpleType>
+															<xs:restriction base="xs:string">
+																<xs:maxLength value="30"/>
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+													<xs:element name="Autor" default="Autor desconocido">
+														<xs:simpleType>
+															<xs:restriction base="xs:string">
+																<xs:maxLength value="30"/>
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+													<xs:element name="Formato" minOccurs="0">
+														<xs:simpleType>
+															<xs:restriction base="xs:string">
+																<xs:enumeration value="Rústico"/>
+																<xs:enumeration value="Tapa blanda"/>
+																<xs:enumeration value="Tapa dura"/>
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+													<xs:element name="Publicacion" default="2020">
+														<xs:simpleType>
+															<xs:restriction base="xs:string">
+																<xs:pattern value="[0-9]{4}"/>
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+													<xs:element name="Precio" type="xs:decimal" default="19.95"/>
+													<xs:element name="Cantidad">
+														<xs:simpleType>
+															<xs:restriction base="xs:integer">
+																<xs:minInclusive value="0"/>
+																<xs:maxInclusive value="10"/>
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Telefono">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="[0-9]{9}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+</xs:schema>				
